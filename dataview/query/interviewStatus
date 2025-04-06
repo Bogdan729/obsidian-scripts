@@ -1,0 +1,6 @@
+// Статус собеседования
+
+TABLE interview_status as Status, salary as Salary, interview_date as Date
+FROM #interview 
+WHERE file.name != "interview-temp"
+SORT interview_date DESC

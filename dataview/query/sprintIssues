@@ -1,0 +1,5 @@
+// Задачи текущего спринта
+
+TABLE task-status AS Status 
+FROM ""
+WHERE contains(tags, "work-task") AND sprint = 1
