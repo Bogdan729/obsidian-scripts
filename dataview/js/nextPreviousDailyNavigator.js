@@ -13,7 +13,6 @@ if (currentNote != "bdn-daily") {
 	} else {
 		dv.paragraph(`${pn[currentIndex-1].file.link}`);
 	}
-	
 } else {
     dv.paragraph("Заметка является шаблоном, навигация не доступна.");
 }
