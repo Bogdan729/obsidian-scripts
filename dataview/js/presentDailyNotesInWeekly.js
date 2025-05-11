@@ -40,7 +40,6 @@ if (match) {
         let dayOfWeek = getDayOfWeek(item.date);
         dv.paragraph(`<span style="display: inline-block; width: 120px; color: #027aff">${dayOfWeek}</span> ${dv.fileLink(item.note.file.path)}`);
     });
-
 } else {
     dv.paragraph("Не удалось извлечь дату из названия текущей заметки.");
 }
