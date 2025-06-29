@@ -2,4 +2,6 @@
 
 LIST 
 FROM [[]]
+WHERE contains(tags, "tag")
+	AND !icontains(file.folder, "templates")
 SORT file.ctime DESC
