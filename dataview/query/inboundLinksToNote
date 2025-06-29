@@ -1,7 +1,5 @@
 // Входящие ссылки в указанную заметку
 
 LIST 
-FROM [[⚡️ разработка API СРП|API СРП]]
-WHERE contains(file.tags, "work-task")
+FROM [[]]
 SORT file.ctime DESC
-
